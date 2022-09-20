@@ -410,6 +410,10 @@
 	#clockdiv div > span, #clockdiv2 div > span, #clockdiv3 div > span{
 		font-size:20px;
 	}
+	.chineti h3{
+		position: absolute;
+		margin-top: -210px;
+	}
 	.smalltext{
 		font-size:12px;
 	}
@@ -454,10 +458,22 @@
 	.slider-area .carousel-inner .item .carousel-captions .content li{
 		margin-top:15px;
 	}
+	.container{
+		margin-top: 50px;
+		position: relative;
+	}
 }
+
 @media (max-width: 330px){
 	#clockdiv > div, #clockdiv2 > div, #clockdiv3 > div{
 		margin-left: 3px;
 		margin-right: 2px;
+	}
+}
+@media (max-width: 380px){
+	.chineti h3{
+		font-size: 18px;
+		position: absolute;
+		margin-top: -190px;
 	}
 }
